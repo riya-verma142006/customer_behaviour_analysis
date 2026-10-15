@@ -9,14 +9,6 @@ This project focuses on analyzing customer shopping behavior to understand purch
 
 The project follows an end-to-end data analytics workflow, including data loading, data cleaning, exploratory data analysis (EDA), SQL-based analysis, dashboard development, and project documentation.
 
-## Dataset
-
-The project uses a customer shopping behavior dataset containing customer and transaction-related information.
-
-The dataset is used to explore shopping trends, purchasing preferences, customer segments, and other relevant business metrics.
-
-**Dataset file:** `customer_shopping_behavior.csv`
-
 ## Tools & Technologies
 
 - **Python:** Data loading, data cleaning, and exploratory data analysis using Pandas and other relevant libraries.
@@ -67,16 +59,6 @@ The dataset is used to explore shopping trends, purchasing preferences, customer
 - Presented the analytical approach, dashboard, key findings, and recommendations.
 - Organized the content into a concise, professional presentation.
 
-## Dashboard
-
-The Power BI dashboard provides a visual overview of customer shopping behavior and relevant business metrics.
-
-**Dashboard Preview:** Add your dashboard screenshot below.
-
-![customer behavior dashboard](dashboard.png)
-
-*Replace `customer behaviour dashboard.png` with the actual filename of your dashboard image.*
-
 ## Results & Insights
 
 The project is designed to identify meaningful patterns in customer shopping behavior and translate them into actionable business insights.
@@ -88,47 +70,6 @@ Key findings will be documented after completing the analysis, including:
 - Business metrics identified through SQL analysis.
 - Insights presented through the Power BI dashboard.
 - Data-driven recommendations based on the findings.
-
-*Note: Final results and numerical findings should be added after validating the analysis outputs.*
-
-## How to Run
-
-### Prerequisites
-
-Install Python and the required libraries. You will also need Jupyter Notebook and access to a supported SQL database.
-
-### Step 1: Clone the Repository
-
-```bash
-git clone <your-repository-url>
-cd customer-shopping-behavior-analysis
-```
-
-### Step 2: Install Dependencies
-
-```bash
-pip install pandas numpy matplotlib seaborn sqlalchemy jupyter
-```
-
-Install any additional database driver required for your selected SQL database.
-
-### Step 3: Open Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open the project notebook and execute the cells in sequence.
-
-### Step 4: Run the SQL Queries
-
-- Set up your chosen database: PostgreSQL, MySQL, or SQL Server.
-- Import the prepared dataset into a database table.
-- Execute the SQL scripts included in the project.
-
-### Step 5: Open the Power BI Dashboard
-
-Open the `.pbix` file in Power BI Desktop. If prompted, update the data source connection and refresh the data.
 
 ## Project Structure
 
@@ -144,8 +85,6 @@ customer-shopping-behavior-analysis/
 ├── project_presentation.pdf
 └── README.md
 ```
-
-*Include only the files that are actually present in your repository. Adjust filenames and folder names to match your project.*
 
 ## Key Skills Demonstrated
 
